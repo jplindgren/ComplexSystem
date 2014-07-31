@@ -1,0 +1,5 @@
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Infrastructure.Repository\bin\Debug\CQRSDemo.Infrastructure.Repository.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Infrastructure.Repository\bin\Debug\CQRSDemo.Infrastructure.Repository.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Infrastructure.Repository\obj\Debug\CQRSDemo.Infrastructure.Repository.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Infrastructure.Repository\obj\Debug\CQRSDemo.Infrastructure.Repository.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Infrastructure.Repository\obj\Debug\CQRSDemo.Infrastructure.Repository.csprojResolveAssemblyReference.cache

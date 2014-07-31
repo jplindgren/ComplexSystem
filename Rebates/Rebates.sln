@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Rebates.Presentation", "CQRSDemo.Rebates.Presentation\CQRSDemo.Rebates.Presentation.csproj", "{83BE610A-E7CB-4D18-9BFA-37FDEB7E0389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Rebates.Domain", "CQRSDemo.Rebates.Domain\CQRSDemo.Rebates.Domain.csproj", "{19EC2135-D023-4264-BC21-BC0776B9BB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Rebates.Application", "CQRSDemo.Rebates.Application\CQRSDemo.Rebates.Application.csproj", "{135E7418-FAB5-4EE3-B4EF-79474E781F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Rebates.Test", "CQRSDemo.Rebates.Test\CQRSDemo.Rebates.Test.csproj", "{CE30702D-A391-495B-99FA-6B2FDF37751E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA6FFF2B-3A58-423B-BC21-93048F78AF1D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Rebates.vsmdi = Rebates.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Rebates.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BE610A-E7CB-4D18-9BFA-37FDEB7E0389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BE610A-E7CB-4D18-9BFA-37FDEB7E0389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BE610A-E7CB-4D18-9BFA-37FDEB7E0389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BE610A-E7CB-4D18-9BFA-37FDEB7E0389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EC2135-D023-4264-BC21-BC0776B9BB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EC2135-D023-4264-BC21-BC0776B9BB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EC2135-D023-4264-BC21-BC0776B9BB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EC2135-D023-4264-BC21-BC0776B9BB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135E7418-FAB5-4EE3-B4EF-79474E781F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135E7418-FAB5-4EE3-B4EF-79474E781F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135E7418-FAB5-4EE3-B4EF-79474E781F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135E7418-FAB5-4EE3-B4EF-79474E781F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE30702D-A391-495B-99FA-6B2FDF37751E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE30702D-A391-495B-99FA-6B2FDF37751E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE30702D-A391-495B-99FA-6B2FDF37751E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE30702D-A391-495B-99FA-6B2FDF37751E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

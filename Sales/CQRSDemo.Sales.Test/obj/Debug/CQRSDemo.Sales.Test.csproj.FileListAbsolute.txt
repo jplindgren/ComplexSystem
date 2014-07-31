@@ -1,0 +1,5 @@
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Test\bin\Debug\CQRSDemo.Sales.Test.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Test\bin\Debug\CQRSDemo.Sales.Test.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Test\obj\Debug\CQRSDemo.Sales.Test.csprojResolveAssemblyReference.cache
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Test\obj\Debug\CQRSDemo.Sales.Test.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Test\obj\Debug\CQRSDemo.Sales.Test.pdb

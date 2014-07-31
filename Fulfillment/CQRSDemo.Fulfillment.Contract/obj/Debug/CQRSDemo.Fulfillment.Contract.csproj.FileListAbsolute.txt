@@ -1,0 +1,5 @@
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\bin\Debug\CQRSDemo.Fulfillment.Contract.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\bin\Debug\CQRSDemo.Fulfillment.Contract.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Performace\CQRS.Performance.Application\bin\Debug\CQRS.Performance.Application.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Performace\CQRS.Performance.Application\bin\Debug\CQRS.Performance.Application.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Performace\CQRS.Performance.Application\obj\Debug\CQRS.Performance.Application.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Performace\CQRS.Performance.Application\obj\Debug\CQRS.Performance.Application.pdb

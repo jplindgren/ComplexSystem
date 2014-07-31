@@ -1,0 +1,4 @@
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Application\bin\Debug\CQRSDemo.Sales.Application.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Application\bin\Debug\CQRSDemo.Sales.Application.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Application\obj\Debug\CQRSDemo.Sales.Application.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Sales\CQRSDemo.Sales.Application\obj\Debug\CQRSDemo.Sales.Application.pdb

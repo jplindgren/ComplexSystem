@@ -1,0 +1,17 @@
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\obj\Debug\CQRSDemo.Fulfillment.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Presentation.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Presentation.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Application.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Contract.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Domain.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.SQL.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Infrastructure.Repository.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\EntityFramework.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Application.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Contract.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.Domain.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Fulfillment.SQL.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\CQRSDemo.Infrastructure.Repository.pdb
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\bin\EntityFramework.xml
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\obj\Debug\CQRSDemo.Fulfillment.Presentation.dll
+C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Presentation\obj\Debug\CQRSDemo.Fulfillment.Presentation.pdb
