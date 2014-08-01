@@ -10,3 +10,15 @@ C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQ
 C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Fulfillment.Domain.pdb
 C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Infrastructure.Repository.pdb
 C:\Users\JoaoPaulo\Documents\Visual Studio 2010\Projects\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\EntityFramework.xml
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Fulfillment.SQL.dll.config
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Fulfillment.SQL.dll
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Fulfillment.SQL.pdb
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Fulfillment.Domain.dll
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Infrastructure.Repository.dll
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\EntityFramework.dll
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Fulfillment.Domain.pdb
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\CQRSDemo.Infrastructure.Repository.pdb
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\bin\Debug\EntityFramework.xml
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\obj\Debug\CQRSDemo.Fulfillment.SQL.csprojResolveAssemblyReference.cache
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\obj\Debug\CQRSDemo.Fulfillment.SQL.dll
+C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.SQL\obj\Debug\CQRSDemo.Fulfillment.SQL.pdb

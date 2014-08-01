@@ -8,7 +8,7 @@ using CQRSDemo.Fulfillment.Consumer.FulfillmentService;
 namespace CQRSDemo.Fulfillment.Consumer {
     class Program {
         static void Main(string[] args) {
-            IList<Guid> orderIds = new List<Guid>();
+            List<Guid> orderIds = new List<Guid>();
             FulfillmentServiceClient client = new FulfillmentServiceClient();
 
             Line[] lines = {
@@ -28,6 +28,10 @@ namespace CQRSDemo.Fulfillment.Consumer {
                 try {
                     order.OrderId = Guid.NewGuid();
                     PlaceOrder(client, order);
+                    orderIds.Add(order.OrderId);
+
+                    var processedOrderIds = orderIds.Where(x => CheckOrderStatus(client, x)).ToList();
+                    orderIds.RemoveAll(id => processedOrderIds.Contains(id));
                 } catch (Exception ex) {
                     Console.WriteLine(ex.Message);
                 }
@@ -35,8 +39,17 @@ namespace CQRSDemo.Fulfillment.Consumer {
         }
 
         private static void PlaceOrder(FulfillmentServiceClient client, Order order) {
-            var confirmation = client.PlaceOrder(order);
+            client.PlaceOrder(order);
+        }
+
+        private static bool CheckOrderStatus(FulfillmentServiceClient client, Guid orderId) {
+            var confirmation = client.CheckOrderStatus(orderId);
+
+            if (confirmation == null)
+                return false;
+
             PrintConfirmation(confirmation);
+            return true;
         }
 
         private static void PrintConfirmation(Confirmation confirmation) {

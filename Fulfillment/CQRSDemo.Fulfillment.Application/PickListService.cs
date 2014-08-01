@@ -19,5 +19,9 @@ namespace CQRSDemo.Fulfillment.Application {
             }
             _pickListRepository.SaveChanges();
         }
+
+        public IList<PickList> GetPickLists(Guid orderId) {
+            return _pickListRepository.GetAll().Where(x => x.OrderId == orderId).ToList();
+        }
     }//class
 }

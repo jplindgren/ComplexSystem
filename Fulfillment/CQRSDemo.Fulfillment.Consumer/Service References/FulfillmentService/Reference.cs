@@ -294,7 +294,10 @@ namespace CQRSDemo.Fulfillment.Consumer.FulfillmentService {
     public interface IFulfillmentService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IFulfillmentService/PlaceOrder", ReplyAction="http://tempuri.org/IFulfillmentService/PlaceOrderResponse")]
-        CQRSDemo.Fulfillment.Consumer.FulfillmentService.Confirmation PlaceOrder(CQRSDemo.Fulfillment.Consumer.FulfillmentService.Order order);
+        void PlaceOrder(CQRSDemo.Fulfillment.Consumer.FulfillmentService.Order order);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IFulfillmentService/CheckOrderStatus", ReplyAction="http://tempuri.org/IFulfillmentService/CheckOrderStatusResponse")]
+        CQRSDemo.Fulfillment.Consumer.FulfillmentService.Confirmation CheckOrderStatus(System.Guid orderId);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -324,8 +327,12 @@ namespace CQRSDemo.Fulfillment.Consumer.FulfillmentService {
                 base(binding, remoteAddress) {
         }
         
-        public CQRSDemo.Fulfillment.Consumer.FulfillmentService.Confirmation PlaceOrder(CQRSDemo.Fulfillment.Consumer.FulfillmentService.Order order) {
-            return base.Channel.PlaceOrder(order);
+        public void PlaceOrder(CQRSDemo.Fulfillment.Consumer.FulfillmentService.Order order) {
+            base.Channel.PlaceOrder(order);
+        }
+        
+        public CQRSDemo.Fulfillment.Consumer.FulfillmentService.Confirmation CheckOrderStatus(System.Guid orderId) {
+            return base.Channel.CheckOrderStatus(orderId);
         }
     }
 }
