@@ -8,3 +8,7 @@ C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Co
 C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.csprojResolveAssemblyReference.cache
 C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.dll
 C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.pdb
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Contract\bin\Debug\CQRSDemo.Fulfillment.Contract.dll
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Contract\bin\Debug\CQRSDemo.Fulfillment.Contract.pdb
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.dll
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Contract\obj\Debug\CQRSDemo.Fulfillment.Contract.pdb

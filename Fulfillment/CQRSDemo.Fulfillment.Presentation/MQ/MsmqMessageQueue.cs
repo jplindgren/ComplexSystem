@@ -13,7 +13,7 @@ namespace CQRSDemo.Fulfillment.Presentation.MQ {
         private static MsmqMessageQueue<T> _instance = new MsmqMessageQueue<T>();
 
         public MsmqMessageQueue() {
-            _path = @".\private$\orders";
+            _path = @".\private$\" + typeof(T).FullName;
             if (!MessageQueue.Exists(_path)){
                 MessageQueue.Create(_path, transactional: true);
             }
@@ -30,21 +30,29 @@ namespace CQRSDemo.Fulfillment.Presentation.MQ {
 
         public void Send(T message) {
             //using (var scope = new TransactionScope()) {
-            using (var queue = new MessageQueue(_path)) {
-                queue.DefaultPropertiesToSend.Recoverable = true;
-                queue.Formatter = Formatter;
-                queue.Send(message, MessageQueueTransactionType.Automatic);
+            using (var transaction = new MessageQueueTransaction()) {
+                transaction.Begin();
+                using (var queue = new MessageQueue(_path)) {
+                    queue.DefaultPropertiesToSend.Recoverable = true;
+                    queue.Formatter = Formatter;
+                    queue.Send(message, transaction);
+                    transaction.Commit();                    
+                }
             }
             //}
         }
 
         public bool TryReceive(out T message) {
             try {
-                using (var queue = new MessageQueue(_path)) {
-                    var msmqMessage = queue.Receive(Timeout, MessageQueueTransactionType.Automatic);
-                    msmqMessage.Formatter = Formatter;
-                    message = (T)msmqMessage.Body;
-                    return true;
+                using (var transaction = new MessageQueueTransaction()) {
+                    transaction.Begin();
+                    using (var queue = new MessageQueue(_path)) {
+                        var msmqMessage = queue.Receive(Timeout, transaction);
+                        msmqMessage.Formatter = Formatter;
+                        message = (T)msmqMessage.Body;
+                        transaction.Commit();
+                        return true;
+                    }
                 }
             } catch (Exception ex) {
                 message = default(T);

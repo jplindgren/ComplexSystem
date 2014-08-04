@@ -19,15 +19,10 @@ namespace CQRSDemo.Fulfillment.Presentation {
             }
         }
 
-        private ManualResetEvent _stop = new ManualResetEvent(true);
+        private ManualResetEvent _stop = new ManualResetEvent(false);
         private Thread _thread;
-        private IMessageQueue<Order> _messageQueue;
 
         private OrderHandler() {
-            FulfillmentDB.Initialize();
-
-            _messageQueue = MsmqMessageQueue<Order>.Instance;
-
             _thread = new Thread(ThreadProc);
             _thread.Name = "OrderHandler";
         }
@@ -42,16 +37,15 @@ namespace CQRSDemo.Fulfillment.Presentation {
             _thread.Join();
         }
 
-
         public void ThreadProc(object o) {
             Order order;
             while (!_stop.WaitOne(0)) {
-                if (_messageQueue.TryReceive(out order)){
-                    using (OrderProcessor processor = new OrderProcessor()){
+                if (MsmqMessageQueue<Order>.Instance.TryReceive(out order)){
+                    using (OrderProcessor processor = new OrderProcessor()) {
                         processor.ProcessOrder(order);
-                    } 
+                    }
                 }
-                    
+
             }
         }
     }// class

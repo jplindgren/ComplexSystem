@@ -38,3 +38,9 @@ C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Co
 C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Consumer\bin\Debug\CQRSDemo.Fulfillment.Domain.pdb
 C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Consumer\bin\Debug\EntityFramework.xml
 C:\Users\JoaoPaulo\Documents\GitHub\CQRSDemo\Fulfillment\CQRSDemo.Fulfillment.Consumer\obj\x86\Debug\CQRSDemo.Fulfillment.Consumer.pdb
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Consumer\bin\Debug\CQRSDemo.Fulfillment.Consumer.exe.config
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Consumer\bin\Debug\CQRSDemo.Fulfillment.Consumer.exe
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Consumer\bin\Debug\CQRSDemo.Fulfillment.Consumer.pdb
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Consumer\obj\x86\Debug\CQRSDemo.Fulfillment.Consumer.csprojResolveAssemblyReference.cache
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Consumer\obj\x86\Debug\CQRSDemo.Fulfillment.Consumer.exe
+D:\Development\Github\ComplexSystem\Fulfillment\CQRSDemo.Fulfillment.Consumer\obj\x86\Debug\CQRSDemo.Fulfillment.Consumer.pdb

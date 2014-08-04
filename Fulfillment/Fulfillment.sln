@@ -1,18 +1,20 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Domain", "CQRSDemo.Fulfillment.Domain\CQRSDemo.Fulfillment.Domain.csproj", "{CBAF9D34-FBE4-48E7-AB2C-A3198DEC08DC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Application", "CQRSDemo.Fulfillment.Application\CQRSDemo.Fulfillment.Application.csproj", "{8692E8B9-906F-4B28-A757-FB1A81F59373}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Test", "CQRSDemo.Fulfillment.Test\CQRSDemo.Fulfillment.Test.csproj", "{ACC3E478-A2D2-4F61-887D-CFBCECC0F84C}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC11E03E-4657-43B6-8311-D961C9B70DC9}"
 	ProjectSection(SolutionItems) = preProject
 		Fulfillment.vsmdi = Fulfillment.vsmdi
 		Local.testsettings = Local.testsettings
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Domain", "CQRSDemo.Fulfillment.Domain\CQRSDemo.Fulfillment.Domain.csproj", "{CBAF9D34-FBE4-48E7-AB2C-A3198DEC08DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Application", "CQRSDemo.Fulfillment.Application\CQRSDemo.Fulfillment.Application.csproj", "{8692E8B9-906F-4B28-A757-FB1A81F59373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Test", "CQRSDemo.Fulfillment.Test\CQRSDemo.Fulfillment.Test.csproj", "{ACC3E478-A2D2-4F61-887D-CFBCECC0F84C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Contract", "CQRSDemo.Fulfillment.Contract\CQRSDemo.Fulfillment.Contract.csproj", "{CC19080A-E64E-4E04-8AE0-07A1A8ED11F6}"
 EndProject
@@ -25,9 +27,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDemo.Fulfillment.Consumer", "CQRSDemo.Fulfillment.Consumer\CQRSDemo.Fulfillment.Consumer.csproj", "{9FA20D67-AE13-470B-931D-0DCA896267E3}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Fulfillment.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -120,5 +119,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Fulfillment.vsmdi
 	EndGlobalSection
 EndGlobal

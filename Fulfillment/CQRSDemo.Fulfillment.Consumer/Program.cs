@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CQRSDemo.Fulfillment.Presentation;
 using CQRSDemo.Fulfillment.Consumer.FulfillmentService;
 
 namespace CQRSDemo.Fulfillment.Consumer {

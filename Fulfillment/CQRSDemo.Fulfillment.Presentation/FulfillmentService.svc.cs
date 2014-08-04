@@ -14,27 +14,18 @@ using CQRSDemo.Fulfillment.Presentation.MQ;
 
 namespace CQRSDemo.Fulfillment.Presentation {
     public class FulfillmentService : IFulfillmentService {
-        private CustomerService _customerService;
-        private ProductService _productService;
-        private InventoryAllocationService _inventoryAllocationService;
         private PickListService _pickListService;
-        private IMessageQueue<Order> _messageQueue;
 
         public FulfillmentService() {
             FulfillmentDB.Initialize();
             FulfillmentDB context = new FulfillmentDB();
 
-            _customerService = new CustomerService(context.GetCustomerRepository());
-            _productService = new ProductService(context.GetProductRepository());
-            _inventoryAllocationService = new InventoryAllocationService(context.GetWarehouseRepository());
             _pickListService = new PickListService(context.GetPickListRepository());
-
-            _messageQueue = MsmqMessageQueue<Order>.Instance;
             OrderHandler.Instance.Start();
         }
 
         public void PlaceOrder(Order order) {
-            _messageQueue.Send(order);            
+            MsmqMessageQueue<Order>.Instance.Send(order);
         }
 
         public Confirmation CheckOrderStatus(Guid orderId) {
